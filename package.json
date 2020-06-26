@@ -1,25 +1,34 @@
 {
   "name": "choose-your-character",
-  "version": "1.0.0",
-  "description": "onilne search for board game character stats",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
   "scripts": {
-    "test": "jest"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YohanesDemissie/choose-your-character.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "Yohan",
-    "the",
-    "Dev",
-    "Don"
-  ],
-  "author": "Yohan the Dev Don",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YohanesDemissie/choose-your-character/issues"
-  },
-  "homepage": "https://github.com/YohanesDemissie/choose-your-character#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
