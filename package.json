@@ -1,0 +1,25 @@
+{
+  "name": "choose-your-character",
+  "version": "1.0.0",
+  "description": "onilne search for board game character stats",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YohanesDemissie/choose-your-character.git"
+  },
+  "keywords": [
+    "Yohan",
+    "the",
+    "Dev",
+    "Don"
+  ],
+  "author": "Yohan the Dev Don",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YohanesDemissie/choose-your-character/issues"
+  },
+  "homepage": "https://github.com/YohanesDemissie/choose-your-character#readme"
+}
