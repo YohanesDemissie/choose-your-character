@@ -27,20 +27,6 @@ class CharacterList extends Component {
             })
           }
         </ul>
-        <br />
-        <h1>Chosen Characters</h1>
-        <br />
-        <ul className="list-group">
-          {
-            this.props.heroes.map(hero => {
-              return(
-                <li key={hero.id} className="list-group-item">
-                  <div className="list-item">{hero.name}</div>
-                </li>
-              )
-            })
-          }
-        </ul>
       </div>
     )
   }
@@ -50,7 +36,6 @@ function mapStateToProps(state) {
   console.log('state', state.heroes);
   return {
     characters: state.characters,
-    heroes: state.heroes
   };
 }
 
