@@ -11,14 +11,15 @@ class CharacterList extends Component {
     return(
       <div>
         <h4>Heros</h4>
-        <ul>
+        <ul className="list-group">
           {
             this.props.characters.map(character => {
               return (
-                <li key={character.id}>
-                  <div>{character.name}</div>
+                <li key={character.id} className="list-group-item">
+                  <div className="list-item">{character.name}</div>
                   <div
-                    onClick={() => this.props.addCharacterById(character.id)}> + </div>
+                    className="list-item right-button"
+                    onClick={() => this.props.addCharacterById(character.id)} > + </div>
                     <div>
                     </div>
                 </li>
@@ -26,11 +27,16 @@ class CharacterList extends Component {
             })
           }
         </ul>
-        <ul>
+        <br />
+        <h1>Chosen Characters</h1>
+        <br />
+        <ul className="list-group">
           {
             this.props.heroes.map(hero => {
               return(
-                <li key={hero.id}>{hero.name}</li>
+                <li key={hero.id} className="list-group-item">
+                  <div className="list-item">{hero.name}</div>
+                </li>
               )
             })
           }
